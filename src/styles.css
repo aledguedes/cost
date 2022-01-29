@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+}
+
+.minimus {    
+    min-height: 70vh;
+}
+
+.btn {
+    background-color: rgba(34, 34, 34, 0.897);
+    color: #FFF;
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    transition: all .3s ease;
+}

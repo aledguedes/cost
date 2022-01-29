@@ -1,0 +1,45 @@
+.main-container {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.main-container h1 {
+    color:#c92828;
+}
+
+.main-container .span-style {
+    background-color: #c92828;
+    padding: 0 0.3em;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.main-container p {
+    color: #000;
+    margin: 1em 0;
+}
+
+.main-container .sublime{
+    border-bottom: #c92828 2px solid;
+    padding: 0.1em 0.2em;
+}
+
+.main-container a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #c92828;
+    background-color: #222;
+    font-weight: 700;
+}
+
+.main-container img {
+    width: 220px;
+    height: 220px;
+}

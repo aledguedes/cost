@@ -1,0 +1,29 @@
+.footer-container {
+    width: 100%;
+    height: 95px;
+    background-color: #222;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais {
+    font-size: 2em;
+    color: #fff;
+}
+
+.redes-sociais i {
+    margin-right: 1em;
+}
+.developer p{
+    color:#c92828;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+}

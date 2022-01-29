@@ -1,0 +1,38 @@
+.navbar {
+    height: 90px;
+    background-color: #222;
+    color: #FFF;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+.navbar img {
+    width: 220px;
+    height: 100px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 2em;
+    font-size: 1.3em;
+    transition: all .6s;
+}
+
+.navbar ul li:hover{
+    color:#f53636cb;
+    border-bottom: 1px solid #f53636;
+}
